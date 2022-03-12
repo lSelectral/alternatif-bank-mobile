@@ -1,0 +1,32 @@
+$background-color: rgba(223, 217, 217, 0.877);
+$main-color: rgba(141, 0, 62, 1);
+
+.top{
+    width: 100%;
+    background-color: $background-color;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .top-left{
+        margin-left: 3%;
+    }
+
+    .logo-container{
+        .logo{
+            margin: 2vh 0px;
+            height: 4vh;
+        }
+    }
+
+    .top-right{
+        margin-right: 3%;
+
+        .top-right-text{
+            font-weight: 600;
+            font-size: 16px;
+            color: $main-color;
+        }
+    }
+}

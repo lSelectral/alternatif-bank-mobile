@@ -1,0 +1,34 @@
+$background-color: rgba(223, 217, 217, 0.877);
+$main-color: rgba(141, 0, 62, 1);
+
+.bottom{
+    width: 100%;
+    margin-top: auto;
+    padding-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $background-color;
+
+    .bottom-option{
+        margin: 0 1vh 10px 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .bottom-icon{
+            flex: 1;
+            color: rgb(85, 79, 79);
+        }
+
+        .bottomOptionText{
+            flex: 1;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+$background-color: rgba(223, 217, 217, 0.877);
+$main-color: rgba(141, 0, 62, 1);
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .center{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .centerImage{
+            width: 100%;
+            max-height: 53vh;
+            object-fit: fill;
+        }
+
+        .loginOptions{
+            margin-top: -2vh;
+            padding-top: 4vh;
+            width: 90%;
+            background-color: $background-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .loginOption{
+                margin-bottom: 3vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .loginOptionText{
+                    color: $main-color;
+                }
+                
+                .loginOptionIcon{
+                    margin-top: -1vh;
+                    margin-bottom: 1vh;
+                    color: $main-color;
+                }
+            }
+
+        }
+
+        .register{
+            background-color: $main-color;
+            width: 85%;
+            padding: 20px 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .register-text{
+                color: white;
+            }
+
+            .register-icon{
+                color: white;
+            }
+        }
+    }
+}
+
+.vertical-line{
+    width:40px; 
+    transform:rotate(90deg);
+    border: 1px solid $main-color;
+}
