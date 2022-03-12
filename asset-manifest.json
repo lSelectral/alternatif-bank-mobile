@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alternatif-bank-mobile/static/css/main.d01bf326.css",
+    "main.js": "/alternatif-bank-mobile/static/js/main.2a1379e9.js",
+    "static/media/lansman2.jpg": "/alternatif-bank-mobile/static/media/lansman2.93b595b56ef6b8543afd.jpg",
+    "static/media/logo.png": "/alternatif-bank-mobile/static/media/logo.0b4ac57dc40137d0c85f.png",
+    "index.html": "/alternatif-bank-mobile/index.html",
+    "main.d01bf326.css.map": "/alternatif-bank-mobile/static/css/main.d01bf326.css.map",
+    "main.2a1379e9.js.map": "/alternatif-bank-mobile/static/js/main.2a1379e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d01bf326.css",
+    "static/js/main.2a1379e9.js"
+  ]
+}
