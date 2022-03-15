@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/alternatif-bank-mobile/static/css/main.2ecf0c6c.css",
-    "main.js": "/alternatif-bank-mobile/static/js/main.a8fd4e1e.js",
+    "main.js": "/alternatif-bank-mobile/static/js/main.a92779a3.js",
     "static/media/lansman2.jpg": "/alternatif-bank-mobile/static/media/lansman2.93b595b56ef6b8543afd.jpg",
     "static/media/credit_card.png": "/alternatif-bank-mobile/static/media/credit_card.d4b7b4e8f61cb1d7f766.png",
     "static/media/logo_white.png": "/alternatif-bank-mobile/static/media/logo_white.a2410c3c283e38e186a7.png",
     "index.html": "/alternatif-bank-mobile/index.html",
     "main.2ecf0c6c.css.map": "/alternatif-bank-mobile/static/css/main.2ecf0c6c.css.map",
-    "main.a8fd4e1e.js.map": "/alternatif-bank-mobile/static/js/main.a8fd4e1e.js.map"
+    "main.a92779a3.js.map": "/alternatif-bank-mobile/static/js/main.a92779a3.js.map"
   },
   "entrypoints": [
     "static/css/main.2ecf0c6c.css",
-    "static/js/main.a8fd4e1e.js"
+    "static/js/main.a92779a3.js"
   ]
 }
