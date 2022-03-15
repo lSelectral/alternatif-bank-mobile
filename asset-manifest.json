@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/alternatif-bank-mobile/static/css/main.2ecf0c6c.css",
-    "main.js": "/alternatif-bank-mobile/static/js/main.2e932ddb.js",
-    "static/media/lansman2.jpg": "/alternatif-bank-mobile/static/media/lansman2.93b595b56ef6b8543afd.jpg",
-    "static/media/credit_card.png": "/alternatif-bank-mobile/static/media/credit_card.d4b7b4e8f61cb1d7f766.png",
-    "static/media/logo_white.png": "/alternatif-bank-mobile/static/media/logo_white.a2410c3c283e38e186a7.png",
-    "index.html": "/alternatif-bank-mobile/index.html",
-    "main.2ecf0c6c.css.map": "/alternatif-bank-mobile/static/css/main.2ecf0c6c.css.map",
-    "main.2e932ddb.js.map": "/alternatif-bank-mobile/static/js/main.2e932ddb.js.map"
+    "main.css": "/api/static/css/main.2ecf0c6c.css",
+    "main.js": "/api/static/js/main.71a099f5.js",
+    "static/media/lansman2.jpg": "/api/static/media/lansman2.93b595b56ef6b8543afd.jpg",
+    "static/media/credit_card.png": "/api/static/media/credit_card.d4b7b4e8f61cb1d7f766.png",
+    "static/media/logo_white.png": "/api/static/media/logo_white.a2410c3c283e38e186a7.png",
+    "index.html": "/api/index.html",
+    "main.2ecf0c6c.css.map": "/api/static/css/main.2ecf0c6c.css.map",
+    "main.71a099f5.js.map": "/api/static/js/main.71a099f5.js.map"
   },
   "entrypoints": [
     "static/css/main.2ecf0c6c.css",
-    "static/js/main.2e932ddb.js"
+    "static/js/main.71a099f5.js"
   ]
 }
