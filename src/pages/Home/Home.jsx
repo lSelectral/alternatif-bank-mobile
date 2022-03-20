@@ -3,6 +3,7 @@ import TopBar from '../../components/TopBar/TopBar'
 import RegisterBottom from '../../components/RegisterBottom/RegisterBottom'
 import PieChartComponent from '../../components/PieChartComponent/PieChartComponent';
 import {balanceData} from '../../data'
+import Sidebar from '../../components/Sidebar/Sidebar';
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
 
       <div className='balance'>
         {balanceData.map((info) => (
-          <div className='balance' key={info.title}>
+          <div key={info.id}>
             <div className="balance-row-header">
               <span className="row-header-title">{info.title}</span>
             </div>

@@ -1,0 +1,116 @@
+@use "../../utility/variables" as v;
+
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+
+        .credit-card{
+            height: 12vh;
+            margin-bottom: 1vh;
+
+        }
+        .card-type{
+            font-weight: bold;
+            font-size: 2.6vh;
+        }
+        .card-number{
+            font-weight: 600;
+            font-size: 2vh;
+        }
+        .card-owner{
+            font-weight: 400;
+            font-size: 2.3vh;
+        }
+        .change-card{
+            display: flex;
+            align-items: center;
+            margin-top: 5px;
+            cursor: pointer;
+            .change-icon{
+                color: v.$main-color;
+                font-size: 4vh;
+            }
+                .change-text{
+                color: v.$main-color;
+                font-weight: bold;
+                font-size: 2vh;
+            }
+        }
+    }
+
+    .separator{
+        width: 90%;
+        border-top: 2px solid gray;
+        margin: 1.2vh 0px;
+    }
+
+    .card-limit-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .card-limit{
+            margin: 0.7vh 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .limit-header{
+                color: gray;
+                font-size: 2.1vh;
+            }
+            .limit-text{
+                font-weight: 600;
+                font-size: 2.3vh;
+            }
+        }
+    }
+
+    .detailed-info-collapse{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        .collapse-text{
+            color: v.$main-color;
+        }
+        .collapse-icon{
+            color: v.$main-color;
+            cursor: pointer;
+        }
+    }
+
+    .detailed-info-panel{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .detailed-info{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1vh 0px;
+            .info-header{
+                font-weight: bold;
+                font-size: 2vh;
+            }
+            .info-text{
+                font-size: 2.3vh;
+            }
+        }
+        .info-seperator{
+            width: 95%;
+            border-top: 1px solid gray;
+        }
+    }
+}

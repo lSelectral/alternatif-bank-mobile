@@ -1,0 +1,134 @@
+@use '../../utility/variables' as v;
+
+.login{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    .background{
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        background-color: v.$main-color;
+    }
+    .background-shape{
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(116, 17, 60);
+        clip-path: polygon(0 69%, 67% 50%, 78% 100%, 0% 100%);
+    }
+
+    .center{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .welcomeText{
+            color: white;
+            font-weight: 400;
+            font-size: clamp(1vh, 1.4vh, 2vh);
+        }
+        .nameText{
+            margin: 0.5vh 0%;
+            color: white;
+            font-size: clamp(1.1vh, 2vh, 2.8vh);
+            font-weight: 600;
+        }
+        .change-account-text{
+            color: rgba(190, 178, 178, 0.637);
+            font-size: 1.3vh;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .login-button{
+            width: 90%;
+            padding: 2vh 0%;
+            margin: 2.5vh 0%;
+            color: v.$main-color;
+            font-size: clamp(1vh, 2vh, 3vh);
+            font-weight: bold;
+        }
+        .forget-password-container{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 10%;
+            .forget-passoword-text{
+                cursor: pointer;
+                color: white;
+                text-decoration: underline;
+                font-size: 1.5vh;                
+            }
+        }
+    }
+
+    .mic-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        .mic-background{
+            background-color: white;
+            border-radius: 50%;
+            width: clamp(3vh, 5vh, 6vh);
+            height: clamp(3vh, 5vh, 6vh);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .mic-icon{
+                color: v.$main-color;
+                font-size: clamp(3vh, 5vh, 6vh);
+            }
+
+            .active{
+                color: rgb(23, 178, 206);
+                font-size: clamp(3vh, 5.5vh, 6vh);
+                border-radius: 50%;
+                background-color: #fff;
+                box-shadow:
+                  0 0 12px 6px #fff,  /* inner white */
+                  0 0 20px 12px #f0f, /* middle magenta */
+                  0 0 28px 18px rgb(145, 39, 139); /* outer cyan */
+              
+              
+            }
+        }
+    }
+
+    .action-bottom{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        overflow: scroll;
+
+        .action-container{
+            background-color: v.$main-color;
+            border: 1px solid black;
+            min-width: 33%;
+            min-height: 10vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+
+            .action-icon{
+                font-size: clamp(2.5vh, 3.7vh, 4.5vh);
+                color: white;
+            }
+            .action-text{
+                color: white;
+                margin-bottom: 0.5vh;
+                font-size: clamp(1.3vh, 1.8vh, 3vh);
+            }
+        }
+    }
+}

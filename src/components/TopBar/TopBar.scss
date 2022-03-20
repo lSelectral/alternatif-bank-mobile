@@ -3,12 +3,10 @@ $main-color: rgba(141, 0, 62, 1);
 
 .top{
     width: 100%;
-    background-color: $background-color;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: $main-color;
     .top-left{
         margin-left: 3%;
     }
@@ -17,6 +15,7 @@ $main-color: rgba(141, 0, 62, 1);
         .logo{
             margin: 2vh 0px;
             height: 4vh;
+            color: white;
         }
     }
 
@@ -24,9 +23,15 @@ $main-color: rgba(141, 0, 62, 1);
         margin-right: 3%;
 
         .top-right-text{
-            font-weight: 600;
-            font-size: 16px;
-            color: $main-color;
+            font-size: 1.8vh;
+            font-weight: 300;
+            color: white;
+            cursor: pointer;
         }
+    }
+
+    .topbar-icon{
+        color: white;
+        font-size: 3.5vh;
     }
 }

@@ -8,27 +8,31 @@ $main-color: rgba(141, 0, 62, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: $background-color;
+    background-color: rgb(97, 8, 46);
+    min-height: 7vh;
 
     .bottom-option{
-        margin: 0 1vh 10px 10px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
         display: flex;
+        height: fit-content;
         align-items: center;
         flex-direction: column;
-        justify-content: space-between;
+        margin: 0 1vh 2% 2%;
+        padding: 0px 10px;
+        flex:1;
 
+        cursor: pointer;
         .bottom-icon{
             flex: 1;
-            color: rgb(85, 79, 79);
+            color: white;
+            font-size: clamp(1.2vh, 3.2vh, 4vh);            
         }
 
         .bottomOptionText{
             flex: 1;
             font-weight: 400;
-            font-size: 12px;
+            font-size: clamp(0.6vh, 1.4vh, 1.6vh);
             text-align: center;
+            color: white;
         }
     }
 }

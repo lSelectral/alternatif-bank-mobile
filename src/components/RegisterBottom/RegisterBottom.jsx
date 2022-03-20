@@ -1,8 +1,8 @@
 import './RegisterBottom.scss';
-import {homeMenu, loginMenu} from '../../data';
+import {homeBottomMenu, loginBottomMenu} from '../../data';
 
 const RegisterBottom = ({isLogin}) => {
-    let data = isLogin ? loginMenu : homeMenu;
+    let data = isLogin ? loginBottomMenu : homeBottomMenu;
     return (
         <div className="bottom">
             {data.map(item => (
