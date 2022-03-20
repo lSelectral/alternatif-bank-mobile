@@ -14,6 +14,4 @@ You can switch to the source code branch like this
 
 > Also available in Android
 
-![](https://www.freeiconspng.com/thumbs/android-icon/green-android-icon-31.png)
-
-[Download APK of the project from here](https://drive.google.com/file/d/1PkpeoXId0CQXLMvVbszit_Gm3WnyuIO9/view?usp=sharing)
+[<img alt="android_apk" width="250px" src="https://www.freeiconspng.com/thumbs/android-icon/green-android-icon-31.png" />](https://drive.google.com/file/d/1PkpeoXId0CQXLMvVbszit_Gm3WnyuIO9/view?usp=sharing)
